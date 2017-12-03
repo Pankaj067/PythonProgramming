@@ -1,6 +1,7 @@
 import speech_recognition as rrs
 import webbrowser as wb
 import SpeechFile
+#Importing the API to do Speech Recognition
 
 chrome_path = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
 
