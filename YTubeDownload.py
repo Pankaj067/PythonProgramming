@@ -1,3 +1,5 @@
+# Before starting this please install pytube -> pip3 install pytube==6.4.2
+
 import pytube
 
 print("Enter the Video Link")
