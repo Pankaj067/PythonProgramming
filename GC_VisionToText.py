@@ -2,7 +2,7 @@ import io
 from google.cloud import vision
 
 vision_client = vision.Client()
-filename = "C:/Users/pankaj.kumar1/Desktop/PythonLib/Images/TextImage.PNG"
+filename = "C:/Users/pankaj.kumar1/Desktop/PythonLib/Images/TestImage.jpg"
 #filename = "C:/Users/pankaj.kumar1/Desktop/PythonLib/Images/Steve.jpg"
 with io.open(filename,'rb') as image_file:
 	content = image_file.read()
