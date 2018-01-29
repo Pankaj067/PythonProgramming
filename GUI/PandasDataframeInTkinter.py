@@ -1,10 +1,8 @@
-# Taken from https://github.com/dmnfarrell/pandastable/wiki/Code-Examples
-
 from tkinter import *
 from pandastable import Table, TableModel
 
 class TestApp(Frame):
-    """Basic test frame for the table"""
+    
     def __init__(self, parent=None):
         self.parent = parent
         Frame.__init__(self)
@@ -20,5 +18,4 @@ class TestApp(Frame):
         return
 
 app = TestApp()
-#launch the app
 app.mainloop()
