@@ -1,3 +1,13 @@
+'''
+Before executing this code, install the the required dependencies listed below:
+
+Tensorflow (only work on Python 64 bit version)
+Keras
+Scikit-learn (or sklearn)
+matplotlib
+
+'''
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
